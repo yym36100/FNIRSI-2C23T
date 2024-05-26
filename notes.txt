@@ -3,5 +3,7 @@ https://www.youtube.com/watch?v=50K1tvDf2iU
 https://mysku.club/blog/aliexpress/99328.html
 
 
+https://github.com/pablomarx/rodinia
+
 
 The battery is really 3000 mAh, disconnectable from the board. Charge controller - TC4056A. The upper part of the board is located behind the screen: The multimeter connectors, two fuses and a current-measuring shunt are adjacent to the bottom of the board: The board is made neatly, I did not see any traces of unwashed flux. Under the screen there are the following elements related to the oscilloscope channels: Here we see two relays, two 74HC4051D microcircuits (single, eight-channel analog multiplexer/demultiplexer), two GS8094 op-amps (4 channels with a 180 MHz bandwidth), two Y214S solid-state opto relays, and two trim resistor. Below, immediately after the shielded part, there are two ADCs, one for each channel of the oscilloscope. In this case it is 3PA1030 (10-Bit, 50MSPS, CMOS ADC). In the middle of the board there is an AT32F403AVGT7 chip (32-bit ARM® Cortex®-M4 240 MHz core, 1 MB Flash memory and 224 KB SRAM) AG1KLP acts as an FPGA. Below, you can see a chip with laser-cut markings. It is probably responsible for the operation of the multimeter. Next to it there is a relay and a varistor. Also, element 85BB-02A is located nearby, I couldn’t find information about what kind of element it is. Nearby is a 122U31 chip (two-channel digital isolator). I didn't look at the rest of the little things. Also on the board there is a 25Q64JVS memory chip with a capacity of 64 Mbit. 
